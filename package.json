@@ -1,0 +1,29 @@
+{
+  "name": "fx31",
+  "version": "1.0.0",
+  "description": "A wrapper of smart-buffer package",
+  "main": "lib/main.js",
+  "author": "Mgen (https://www.mgenware.com)",
+  "homepage": "https://github.com/mgenware/fx31",
+  "bugs": "https://github.com/mgenware/fx31/issues",
+  "keywords": [
+    "buffer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mgenware/fx31.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "smart-buffer": "^3.0.3"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
